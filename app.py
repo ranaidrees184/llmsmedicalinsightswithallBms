@@ -26,6 +26,7 @@ MODEL_ID = "gemini-2.5-flash"
 # ---------------- Schema ----------------
 class BiomarkerRequest(BaseModel):
     # ---------------- Patient Info ----------------
+    id: str = Field(default="PT01", description="ID For Patient")
     age: int = Field(default=52, description="Patient age in years")
     gender: str = Field(default="female", description="Gender of the patient")
     height: float = Field(default=165, description="Height in cm")
@@ -501,6 +502,7 @@ make it detailed
         # --- Format User Data ---
         user_message = f"""
 **Patient Info**
+- Id: {data.id}
 - Age: {data.age}
 - Gender: {data.gender}
 - Height: {data.height} cm
@@ -577,4 +579,5 @@ make it detailed
         return cleaned_output
 
     except Exception as e:
+
         raise HTTPException(status_code=500, detail=f"Prediction error: {str(e)}")
