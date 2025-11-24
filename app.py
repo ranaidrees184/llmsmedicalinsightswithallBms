@@ -382,7 +382,7 @@ make it detailed
 - Amylase (S): 23–85 U/L
 - Lipase (S): 0–160 U/L
 
-# Basic Check-up
+# Basic Checkup
 - WBC: 4–10 ×10^3/μL
 - Hemoglobin: 13–17 g/dL
 - MCV: 80–100 fL
@@ -581,3 +581,4 @@ make it detailed
     except Exception as e:
 
         raise HTTPException(status_code=500, detail=f"Prediction error: {str(e)}")
+
