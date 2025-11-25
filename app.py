@@ -526,16 +526,20 @@ make it detailed
 ------------------------------
 ### Tabular Mapping Instructions (STRICT)
 ⚠️ MANDATORY RULE – NEVER SKIP ANY BIOMARKER IN THE FINAL TABLE:
-- You MUST create ONE row in the "Tabular Mapping" section for EVERY SINGLE biomarker value provided by the user in their lab results, even if it is perfectly normal. 
-- No biomarker from the input may be omitted.
-- Even completely normal values must appear in the table.
-- If the user provides 5 values or 85 values, the table must have exactly that many rows (one per biomarker).
-- Never summarize or group biomarkers — each one gets its own dedicated row.
-- This rule is non-negotiable and overrides any desire for brevity.
+You MUST create ONE row in the "Tabular Mapping" section for EVERY SINGLE biomarker value provided by the user...
+- Create exactly one row for every biomarker value the user has submitted.
+- Do NOT exclude any biomarker, even if it is normal...
+
+### Tabular Mapping
 | Biomarker | Value | Status | Insight | Reference Range |
-| Albumin | X | Normal | ... | 3.5–5.0 g/dL |
-| Creatinine | X | High | ... | 0.7–1.3 mg/dL |
-| Glucose | X | ... | ... | 70–100 mg/dL |
+|-----------|-------|--------|---------|-----------------|
+<!-- EXHAUSTIVE TABLE START – EVERY INPUT BIOMARKER MUST HAVE ITS OWN ROW BELOW -->
+
+<!-- The model will fill all rows here -->
+
+FINAL CHECKLIST BEFORE OUTPUT:
+- Have I listed EVERY biomarker the user provided? → Must be Yes
+- No omissions allowed.
 ------------------------------
 """
 
@@ -621,6 +625,7 @@ make it detailed
     except Exception as e:
 
         raise HTTPException(status_code=500, detail=f"Prediction error: {str(e)}")
+
 
 
 
