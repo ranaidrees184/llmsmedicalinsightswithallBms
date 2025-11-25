@@ -8,6 +8,10 @@ from typing import Dict, Any, Union, List
 
 from fastapi.middleware.cors import CORSMiddleware
 
+# ---------------- Initialize ----------------
+app = FastAPI(title="LLM Model API", version="3.4")
+
+
 app.add_middleware(
     CORSMiddleware,
     allow_origins=["*"],  # Or your domain
@@ -15,8 +19,6 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-# ---------------- Initialize ----------------
-app = FastAPI(title="LLM Model API", version="3.4")
 
 # ✅ Load environment variables
 load_dotenv()
@@ -589,5 +591,6 @@ make it detailed
     except Exception as e:
 
         raise HTTPException(status_code=500, detail=f"Prediction error: {str(e)}")
+
 
 
