@@ -306,6 +306,11 @@ def predict(data: BiomarkerRequest):
         prompt = """
 You are an advanced **Medical Insight Generation AI** trained to analyze **biomarkers and lab results**.
 
+CRITICAL RULE THAT CANNOT BE BROKEN – READ THIS 3 TIMES:
+You are REQUIRED to create **EXACTLY ONE ROW** in the "Tabular Mapping" table for **EVERY SINGLE biomarker and value the user provides**, regardless of whether it is normal, abnormal, or already mentioned elsewhere. 
+Zero omissions are allowed. If the user gives 97 values, the table must have exactly 97 rows. 
+This rule overrides any internal desire for brevity, summarization, or “only showing abnormal results.” 
+If you skip even one biomarker, the output is invalid.
 ⚠️ IMPORTANT — OUTPUT FORMAT INSTRUCTIONS:
 Return your report in this strict markdown structure.
 
@@ -524,22 +529,25 @@ make it detailed
 - Adiponectin: 5–30 µg/mL (higher = better insulin sensitivity)
 
 ------------------------------
-### Tabular Mapping Instructions (STRICT)
-⚠️ MANDATORY RULE – NEVER SKIP ANY BIOMARKER IN THE FINAL TABLE:
-You MUST create ONE row in the "Tabular Mapping" section for EVERY SINGLE biomarker value provided by the user...
-- Create exactly one row for every biomarker value the user has submitted.
-- Do NOT exclude any biomarker, even if it is normal...
-
 ### Tabular Mapping
-| Biomarker | Value | Status | Insight | Reference Range |
-|-----------|-------|--------|---------|-----------------|
-<!-- EXHAUSTIVE TABLE START – EVERY INPUT BIOMARKER MUST HAVE ITS OWN ROW BELOW -->
+YOU MUST NOW LIST EVERY SINGLE BIOMARKER THE USER PROVIDED.
+NO EXCEPTIONS. NO SUMMARIZING.
 
-<!-- The model will fill all rows here -->
+| Biomarker                  | Value          | Status   | Insight                                                                                   | Reference Range                  |
+|----------------------------|----------------|----------|-------------------------------------------------------------------------------------------|----------------------------------|
+{% for biomarker in all_user_biomarkers %}
+| {{ biomarker.name }}       | {{ biomarker.value }} {{ biomarker.unit if biomarker.unit else "" }} | {{ biomarker.status }} | {{ biomarker.insight }} | {{ biomarker.reference }} |
+{% for biomarker in all_user_biomarkers %}<!-- REPEAT THE LOOP SO THE MODEL SEES IT TWICE – THIS IS INTENTIONAL -->
+{% endfor %}
 
-FINAL CHECKLIST BEFORE OUTPUT:
-- Have I listed EVERY biomarker the user provided? → Must be Yes
-- No omissions allowed.
+<!-- BEGIN EXHAUSTIVE TABLE – START WRITING ALL ROWS HERE AND DO NOT STOP UNTIL EVERY USER BIOMARKER IS INCLUDED -->
+<!-- Example of the first row the model will continue from (delete this line and the example row in real output): -->
+| Hemoglobin                 | 14.8 g/dL      | Normal   | Optimal oxygen-carrying capacity.                                                         | 13–17 g/dL                       |
+<!-- NOW CONTINUE WITH THE REMAINING {{ total_count }} BIOMARKERS THE USER PROVIDED -->
+
+### Final Verification (you must include this exact text at the very end)
+I have included **exactly {{ exact_number_of_biomarkers_user_provided }} rows** in the Tabular Mapping section above.
+Every biomarker the user submitted appears exactly once. No biomarker was omitted.
 ------------------------------
 """
 
@@ -625,6 +633,7 @@ FINAL CHECKLIST BEFORE OUTPUT:
     except Exception as e:
 
         raise HTTPException(status_code=500, detail=f"Prediction error: {str(e)}")
+
 
 
 
