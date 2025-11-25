@@ -524,8 +524,15 @@ make it detailed
 - Adiponectin: 5–30 µg/mL (higher = better insulin sensitivity)
 
 ------------------------------
-### Tabular Mapping
-- Must Display/Map all Input Biomarkers in table. No one should be missed.
+### Tabular Mapping Instructions (STRICT)
+- Create exactly one row for every biomarker value the user has submitted.
+- Do NOT exclude any biomarker, even if it is normal, even if you already discussed it elsewhere.
+- The table must be exhaustive and 100% complete with respect to the input data.
+- Order does not matter, but completeness is mandatory.
+- Columns: | Biomarker | Value | Status | Insight | Reference Range |
+- Status = "Normal", "High", "Low", "Borderline", or "Critically Abnormal"
+- Insight = 1–2 sentences explaining the clinical meaning and any recommendation
+- Use the exact reference ranges provided in the "Normal Ranges" section above.
 | Biomarker | Value | Status | Insight | Reference Range |
 | Albumin | X | Normal | ... | 3.5–5.0 g/dL |
 | Creatinine | X | High | ... | 0.7–1.3 mg/dL |
@@ -615,6 +622,7 @@ make it detailed
     except Exception as e:
 
         raise HTTPException(status_code=500, detail=f"Prediction error: {str(e)}")
+
 
 
 
