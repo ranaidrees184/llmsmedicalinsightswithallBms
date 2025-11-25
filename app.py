@@ -525,6 +525,7 @@ make it detailed
 
 ------------------------------
 ### Tabular Mapping
+- Must Display/Map all Input Biomarkers in table. No one should be missed.
 | Biomarker | Value | Status | Insight | Reference Range |
 | Albumin | X | Normal | ... | 3.5–5.0 g/dL |
 | Creatinine | X | High | ... | 0.7–1.3 mg/dL |
@@ -614,6 +615,7 @@ make it detailed
     except Exception as e:
 
         raise HTTPException(status_code=500, detail=f"Prediction error: {str(e)}")
+
 
 
 
