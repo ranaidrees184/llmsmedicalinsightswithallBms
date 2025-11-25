@@ -512,7 +512,16 @@ make it detailed
 - IgG: 700–1600 mg/dL
 - Allergy Panel (Specific IgE): <0.35 kU/L = Negative
 
-
+# Adrenal & Pituitary Hormones
+- ACTH (Morning 8–10 AM): 7–63 pg/mL  (≈ 1.6–13.9 pmol/L)
+- ACTH (Afternoon): <30–50 pg/mL is still considered normal (levels drop throughout the day)
+- Cortisol (Morning 8–10 AM): 6–23 µg/dL (166–635 nmol/L)
+- Cortisol (Afternoon 4–6 PM): 2–14 µg/dL (55–386 nmol/L)
+- DHEA-S (Men): 280–640 µg/dL
+- DHEA-S (Women): 65–380 µg/dL (age-dependent; highest 20–30 yrs)
+- IGF-1: Varies strongly by age (lab-specific reference provided)
+- Leptin (Men): 0.5–8 ng/mL | (Women): 5–25 ng/mL
+- Adiponectin: 5–30 µg/mL (higher = better insulin sensitivity)
 
 ------------------------------
 ### Tabular Mapping
@@ -605,6 +614,7 @@ make it detailed
     except Exception as e:
 
         raise HTTPException(status_code=500, detail=f"Prediction error: {str(e)}")
+
 
 
 
