@@ -16,19 +16,21 @@ Installation
 1. Clone the Repository
 git clone https://github.com/ranaidrees184/llmsmedicalinsightswithallBms.git
 
-cd llmsmedicalinsightswithallBms
+2. cd llmsmedicalinsightswithallBms
 
 3. Create a Virtual Environment (Recommended)
    
-python -m venv venv
-
-source venv/bin/activate       # On Windows: venv\Scripts\activate
+   python -m venv venv
+      
+   source venv/bin/activate       # On Windows: venv\Scripts\activate
 
 4. Install Dependencies
-pip install -r requirements.txt
+
+   pip install -r requirements.txt
 
 5. Run the Application
-python -m uvicorn app:app --reload --host 0.0.0.0 --port 8000
+
+   python -m uvicorn app:app --reload --host 0.0.0.0 --port 8000
 
 
 The API will start locally at:
