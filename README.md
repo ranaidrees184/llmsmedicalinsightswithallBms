@@ -5,6 +5,7 @@ This repository contains the FastAPI-based backend for the Health Insights Syste
 ##  Getting Started
 
 Follow these steps to get a local copy up and running.
+
 📋 Prerequisites
 
 Make sure you have the following installed:
