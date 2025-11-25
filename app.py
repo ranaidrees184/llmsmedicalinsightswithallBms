@@ -498,6 +498,20 @@ make it detailed
 - AFP: <10 ng/mL
 - TNF: <8 pg/m
 
+# Autoimmune & Immunology
+- ANA: <1:80 titer (Negative)
+- Anti-dsDNA: <10 IU/mL (Negative)
+- SSA/SSB: <1.0 U (Negative)
+- Sm Antibodies: <1.0 U (Negative)
+- RNP: <1.0 U (Negative)
+- Anti-CCP: <20 U/mL (Negative)
+- ANCA: Negative
+- Anti-ENA: Negative
+- IL-6: <7 pg/mL
+- IgE: 0–100 IU/mL (Normal adult)
+- IgG: 700–1600 mg/dL
+- Allergy Panel (Specific IgE): <0.35 kU/L = Negative
+
 
 
 ------------------------------
@@ -591,6 +605,7 @@ make it detailed
     except Exception as e:
 
         raise HTTPException(status_code=500, detail=f"Prediction error: {str(e)}")
+
 
 
 
