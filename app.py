@@ -329,40 +329,53 @@ make it detailed
 ------------------------------
 ### System-Specific Analysis
 
-**Cardiovascular System**  
-Status: Normal. Explanation: Lipid profile including Total Cholesterol, LDL, HDL, Triglycerides, Apo A-1, Apo B, Apo Ratio, and Cholesterol/HDL Ratio are within reference ranges, indicating low risk of atherosclerosis, coronary artery disease, and other cardiovascular disorders. hs-CRP, CK, CK-MB, and Homocysteine levels are normal, reflecting minimal systemic inflammation and proper myocardial health.
+**Kidney Function Test**
+Status: Normal. Explanation: Urea, Creatinine, eGFR, Uric Acid, Sodium, Potassium, Chloride, Phosphorus, Calcium, Ionized Calcium, Bicarbonate, Serum Osmolality, Amylase, and Lipase are all within expected reference ranges, indicating excellent glomerular filtration, tubular function, electrolyte homeostasis, and no evidence of renal impairment, dehydration, or early kidney disease.
 
-**Metabolic & Glycemic Control**  
-Status: Normal. Explanation: Fasting Blood Sugar, HbA1c, Insulin, C-Peptide, and HOMA-IR are within healthy ranges, suggesting effective glucose metabolism, insulin sensitivity, and low risk of prediabetes or diabetes.
+**Basic Check-up (CBC & Hematology)**
+Status: Normal. Explanation: Hemoglobin, Hematocrit, RBC count, MCV, MCH, MCHC, RDW, Platelet count, WBC total and differential (Neutrophils, Lymphocytes, Monocytes, Eosinophils, Basophils) are within reference ranges, reflecting optimal oxygen-carrying capacity, normal red cell morphology, adequate platelet function, and balanced immune cell distribution with no signs of anemia, infection, or bone marrow suppression.
 
-**Liver Function**  
-Status: Normal. Explanation: ALT, AST, ALP, GGT, LDH, Total Bilirubin, Direct and Indirect Bilirubin, Albumin, Globulin, Albumin/Globulin Ratio, Total Protein, Ammonia, and Magnesium are within reference ranges, reflecting normal hepatocellular integrity, protein synthesis, and biliary excretion. Abnormalities could indicate hepatic injury, cholestasis, or metabolic liver disorders.
+**Hormone Profile (Comprehensive)**
+Status: Normal. Explanation: Total Testosterone, Free Testosterone, SHBG, Estradiol, Progesterone, LH, FSH, Prolactin, DHEA-S, and other measured reproductive/sex hormones are balanced and appropriate for age and gender, indicating intact hypothalamic-pituitary-gonadal axis, good fertility potential, normal libido, and healthy secondary sexual characteristics.
 
-**Renal Function**  
-Status: Normal. Explanation: Urea, Creatinine, eGFR, Uric Acid, Sodium, Potassium, Chloride, Phosphorus, Calcium, Ionized Calcium, Bicarbonate, Serum Osmolality, Amylase, and Lipase are within expected ranges, suggesting proper kidney filtration, electrolyte balance, and pancreatic enzyme activity. Deviations may indicate renal impairment, electrolyte disorders, or pancreatitis risk.
+**Liver Function Test**
+Status: Normal. Explanation: ALT, AST, ALP, GGT, LDH, Total Bilirubin, Direct & Indirect Bilirubin, Albumin, Globulin, Total Protein, Albumin/Globulin Ratio, and Ammonia are within reference ranges, demonstrating intact hepatocyte integrity, normal synthetic function, protein metabolism, and biliary excretion with no evidence of hepatic injury, cholestasis, cirrhosis, or metabolic liver disease.
 
-**Thyroid Function**  
-Status: Normal. Explanation: TSH, Free T3, Free T4, Total T3, Total T4, Reverse T3, TPO Ab, and TG Ab are within reference limits, showing normal thyroid hormone production, peripheral conversion, and autoimmune status. Abnormal levels may indicate hypothyroidism, hyperthyroidism, or thyroid autoimmunity.
+**Diabetic Profile**
+Status: Normal. Explanation: Fasting Blood Glucose, HbA1c, Fasting Insulin, C-Peptide, and HOMA-IR are all within optimal ranges, confirming excellent glycemic control, high insulin sensitivity, proper pancreatic beta-cell function, and very low risk of prediabetes or type 2 diabetes.
 
-**Adrenal & Stress Hormones**  
-Status: Normal. Explanation: Cortisol, ACTH, DHEA-S, IGF-1, Leptin, and Adiponectin are within normal ranges, reflecting healthy adrenal function, stress response, metabolic regulation, and energy homeostasis. Abnormalities could indicate adrenal insufficiency, Cushing’s syndrome, metabolic disorders, or leptin/adiponectin imbalance.
+**Lipid Profile**
+Status: Normal. Explanation: Total Cholesterol, LDL-C, HDL-C, Triglycerides, Non-HDL Cholesterol, Apo A-1, Apo B, Apo B/Apo A-1 Ratio, and Cholesterol/HDL Ratio are optimal, indicating low atherogenic risk, excellent cardiovascular protection, and minimal likelihood of plaque formation or coronary artery disease.
 
-**Sex Hormones & Reproductive Health**  
-Status: Normal. Explanation: Total Testosterone, Free Testosterone, SHBG, Estrogen, Progesterone, LH, and FSH are within expected ranges based on gender and menstrual cycle, indicating balanced gonadal function, fertility potential, and hormonal homeostasis. Deviations may impact reproductive function, libido, or secondary sexual characteristics.
+**Cardiac Profile**
+Status: Normal. Explanation: hs-CRP, CK, CK-MB, Homocysteine, NT-proBNP (if measured), and other cardiac injury/inflammation markers are within normal limits, reflecting minimal systemic inflammation, healthy myocardial tissue, low thrombotic risk, and excellent long-term cardiovascular prognosis.
 
-**Vitamins & Minerals**  
-Status: Normal. Explanation: Vitamin D, Vitamin B12, Iron, TIBC, Transferrin, Zinc, Copper, Selenium, and Magnesium are within reference ranges, supporting optimal hematologic function, enzymatic reactions, immune defense, and bone health. Deficiencies may lead to anemia, metabolic disturbances, or immune dysfunction.
+**Mineral & Heavy Metal**
+Status: Normal. Explanation: Zinc, Copper, Selenium, Magnesium, Manganese, and screened heavy metals (Lead, Mercury, Cadmium, Arsenic if tested) are within safe and optimal ranges, supporting enzymatic function, antioxidant defense, neurological health, and absence of toxic metal accumulation.
 
-**Hematology & Immune Function**  
-Status: Normal. Explanation: Hemoglobin, MCV, RDW, WBC, Lymphocytes, Albumin, Globulin, ANA, IgE, IgG, Anti-CCP, dsDNA, SSA/SSB, RNP, Sm Antibodies, ANCA, Anti-ENA, IL-6, and Allergy Panel are within normal limits, indicating proper oxygen transport, red blood cell morphology, and immune competence. Deviations could indicate anemia, infection, inflammation, or autoimmune conditions.
+**Iron Profile**
+Status: Normal. Explanation: Serum Iron, TIBC, Transferrin Saturation, Ferritin, and Soluble Transferrin Receptor are balanced, indicating healthy iron stores, normal transport capacity, and no evidence of iron deficiency anemia, hemochromatosis, or chronic inflammation-related anemia.
 
-**Cancer Markers**  
-Status: Normal. Explanation: CA125, CA15-3, CA19-9, PSA, CEA, AFP, Calcitonin, and TNF are within reference ranges, suggesting low risk for malignancy or tumor activity. Elevated values may require further imaging or diagnostic evaluation.
+**Bone Health**
+Status: Normal. Explanation: Vitamin D (25-OH), Calcium, Phosphorus, Magnesium, Alkaline Phosphatase (bone isoform if available), PTH, and bone turnover markers (if tested) are optimal, supporting strong bone mineralization, healthy remodeling, and low risk of osteoporosis or osteomalacia.
 
-**Inflammatory Markers**  
-Status: Normal. Explanation: hs-CRP, IL-6, and Homocysteine are within recommended ranges, reflecting low systemic inflammation and minimal cardiovascular or metabolic risk. Elevations may indicate chronic inflammation, autoimmune activity, or thrombotic risk.
+**Vitamins**
+Status: Normal. Explanation: Vitamin D (25-OH), Vitamin B12, Folate, Vitamin B6, Vitamin C, Vitamin A, Vitamin E, and Vitamin K (if measured) are within optimal ranges, ensuring robust immune function, neurological health, methylation, antioxidant protection, and prevention of deficiency-related disorders.
 
-------------------------------
+**Thyroid Profile**
+Status: Normal. Explanation: TSH, Free T4, Free T3, Total T3, Total T4, Reverse T3, Anti-TPO Antibodies, and Anti-Thyroglobulin Antibodies are all within reference limits, confirming euthyroid status, normal hormone production and conversion, and absence of autoimmune thyroid disease.
+
+**Adrenal Function / Stress Hormones / Other Hormones**
+Status: Normal. Explanation: Morning Cortisol, ACTH, DHEA-S, IGF-1, Leptin, Adiponectin, Aldosterone (if tested), and Catecholamines/Metonephrines (if tested) are appropriately balanced, indicating resilient HPA axis, healthy stress response, growth hormone axis integrity, and optimal metabolic regulation.
+
+**Blood Marker Cancer Profile**
+Status: Normal. Explanation: CEA, CA19-9, CA125, CA15-3, AFP, PSA (men), HE4, ROMA score (if applicable), Calcitonin, and other tumor markers are within reference ranges, suggesting very low probability of active malignancy at this time (note: tumor markers are not screening tools and must be interpreted in clinical context).
+
+**Genomics Profile**
+Status: Normal/No High-Risk Findings. Explanation: Reviewed genetic variants related to methylation (MTHFR), detoxification, cardiovascular risk, pharmacogenomics, and cancer predisposition show either wild-type or low-risk polymorphisms with no clinically actionable high-risk mutations identified at this time.
+
+**Immune Profile**
+Status: Normal. Explanation: Immunoglobulin levels (IgG, IgA, IgM, IgE), ANA, ENA panel, Anti-dsDNA, Anti-CCP, ANCA, Complement C3/C4, IL-6, and lymphocyte subsets (if tested) are within normal limits, indicating competent humoral and cellular immunity with no evidence of immunodeficiency, active autoimmunity, or chronic inflammatory states.------------------------------
 ### Personalized Action Plan
 **Nutrition:** ...
 make it detailed
@@ -633,6 +646,7 @@ Every biomarker the user submitted appears exactly once. No biomarker was omitte
     except Exception as e:
 
         raise HTTPException(status_code=500, detail=f"Prediction error: {str(e)}")
+
 
 
 
