@@ -15,9 +15,10 @@ Make sure you have the following installed:
 Installation
 1. Clone the Repository
 git clone https://github.com/ranaidrees184/llmsmedicalinsightswithallBms.git
+
 cd llmsmedicalinsightswithallBms
 
-2. Create a Virtual Environment (Recommended)
+3. Create a Virtual Environment (Recommended)
    
 python -m venv venv
 
